@@ -15,9 +15,19 @@
   ~ limitations under the License
   -->
 <resources>
-    <style name="DialtactsTheme" parent="@style/DialtactsTheme1">
+    <style name="DialtactsTheme1"
+           parent="android:Theme.Material.DayNight">
         <item name="android:textColorPrimary">@color/dialtacts_primary_text_color</item>
         <item name="android:textColorSecondary">@color/dialtacts_secondary_text_color</item>
+        <item name="android:actionBarStyle">@style/DialtactsActionBarStyle</item>
+        <item name="android:listViewStyle">@style/ListViewStyle</item>
+        <item name="android:colorPrimary">@color/dialer_theme_color</item>
+        <item name="android:colorPrimaryDark">@color/dialer_theme_color_dark</item>
+        <item name="android:colorControlActivated">@color/dialtacts_theme_color</item>
+    </style>
+
+    <style name="DialtactsTheme"
+           parent="@style/DialtactsTheme1">
         <item name="android:windowActionBarOverlay">true</item>
         <item name="android:windowActionModeOverlay">true</item>
         <item name="android:actionBarStyle">@style/DialtactsActionBarStyle</item>
@@ -202,7 +212,7 @@
 
     <!-- Inherit from Theme.Material.Light.Dialog instead of Theme.Material.Light.Dialog.Alert
     since the Alert dialog is private. They are identical anyway. -->
-    <style name="AlertDialogTheme" parent="@android:style/Theme.Material.Light.Dialog">
+    <style name="AlertDialogTheme" parent="@android:style/Theme.Material.DayNight.Dialog">
         <item name="android:colorAccent">@color/dialtacts_theme_color</item>
     </style>
 
