@@ -43,6 +43,9 @@
     <string name="cyngn_reverse_lookup_provider_name">Cyngn Chinese (CN)</string>
     <string name="cyngn_reverse_lookup_provider_value" translatable="false">CyngnChinese</string>
 
+    <!-- Dialer Lookup -->
+    <string name="dialer_lookup_search_hint">Search contacts, places or phone numbers</string>
+
     <!-- Call recording -->
     <string name="call_recording_category_key" translatable="false">call_recording_category</string>
     <string name="call_recording_category_title">Call recording</string>
