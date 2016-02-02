@@ -24,4 +24,7 @@
     <!-- Dialpad at launch -->
     <string name="show_dialpad_at_start_title">Show dialpad at start</string>
 
+    <!-- Dialer Lookup -->
+    <string name="dialer_lookup_search_hint">Search contacts, places or phone numbers</string>
+
 </resources>
