@@ -63,4 +63,7 @@
     <string name="call_log_action_block">Block caller</string>
     <string name="call_log_action_unblock">Caller blocked</string>
 
+    <!-- Dialpad at launch -->
+    <string name="show_dialpad_at_start_title">Show dialpad at start</string>
+
 </resources>
